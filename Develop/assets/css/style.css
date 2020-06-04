@@ -1,3 +1,5 @@
+/* multiple changes have been made below. Color change to text in header. Some lines had the same properties so those lines were consolidated. I moved .footer and .footer h2 above all the consolidated lines. There are comments above each line I adjusted. */  
+
 * {
     box-sizing: border-box;
     padding: 0;
@@ -19,9 +21,9 @@ body {
     display: inline-block;
     font-size: 48px;
 }
-
+/* changed color to highlight SEO */
 .header h1 .seo {
-    color: #d9dcd6;
+    color: darksalmon;
 }
 
 .header div {
@@ -86,7 +88,7 @@ p {
     background-color: #2589bd;
 }
 
-/* Moved footer up */
+/* Moved footer up to be with like formats. This allows me to focus all my consolidated syntax below in their respective groups */
 .footer {
     padding: 30px;
     clear: both;
